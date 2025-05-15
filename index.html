@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.cs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELQADY</title>
+
+    <style>
+        
+        body {
+            background-color: #ADD8E6; /
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #3a3838;
+        }
+
+        h1 {
+            text-align: center;
+            color: #8A2BE2; 
+            margin-top: 0;
+            padding-top: 30px;
+            margin-bottom: 40px; 
+        }
+
+        /* -------------------------------------- */
+    
+    
+        @keyframes moveLeft {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .moving-ticker-paragraph { 
+            color: #FF4500; 
+            font-size: 20px; /
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 20px 0; 
+
+            
+            animation-name: moveLeft;
+            animation-duration: 20s; /
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        /* -------------------------------------- */
+
+        .image-and-text-container {
+            display: flex; 
+        
+            margin: 20px auto; 
+            max-width: 900px; 
+            padding: 0 20px; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+
+        .image-and-text-container img {
+            max-width: 55%; 
+            height: auto;
+            border-radius: 10px; 
+        }
+
+    
+        .image-and-text-container .static-colored-paragraph 
+            flex-grow: 1; 
+            font-size: 1.3em; 
+            color: #150a6e; 
+            line-height: 1.7;
+            
+        }
+
+         
+        @media (max-width: 800px) 
+            .image-and-text-container {
+                flex-direction: column; 
+                align-items: flex-start; 
+            }
+
+            .image-and-text-container img {
+                max-width: 100%; 
+                margin-bottom: 20px; 
+            }
+
+             .image-and-text-container .static-colored-paragraph {
+                 font-size: 1.1em; 
+             }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 style="font-size: 4em;">عباس القاضي</h1>
+
+    <p class="moving-ticker-paragraph">
+        للتواصل واتس اب 01143072578
+    </p>
+
+    <div class="image-and-text-container">
+        <img src="https://imgur.com/RDhO2dC.jpg" alt="عباس القاضي" width="60%">
+
+        <p class="static-colored-paragraph">
+            <pre>
+          <h1> بسم الله الرحمان الرحيم 
+            واحسن كما احسن الله اليك ولا تبغي الفساد في الارض
+           </h1>
+            </pre>
+         </p> 
+    </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <p class="my-styled-paragraph">
+    هذا البراجراف حجم خطه كبير ولونه مختلف.
+</p>
+
+<p>
+    هذا براجراف عادي لن يتغير لونه أو حجم خطه بهذا الكلاس.
+</p>
+    </div>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اللهم صلي وسلم علي سيدنا محمد</title>
+    <style>
+        
+        table {
+            border-collapse: collapse
+            width: 80%; 
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            direction: rtl; 
+            text-align: right; 
+        }
+
+        th, td {
+            border: 1px solid #8d2323; 
+            text-align: center; 
+            padding: 10px; 
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        /*
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        */
+    </style>
+</head>
+<body>
+
+    <h1>Appas Elqady</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">الاسم</th>
+
+                <th rowspan="2">الفرقه</th>
+
+                <th rowspan="2">الجروب والتخصص</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>عباس صبحي مبروك  القاضي</td>
+                <td>الاولي</td>
+                <td>AI- G1</td>
+            
+            
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+</body>
+</html>
